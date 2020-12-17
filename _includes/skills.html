@@ -22,6 +22,13 @@
         </div>
       </div><!--//level-bar-->
 
+      {% if skill.details %}
+      <div class="details">
+        <br>
+        {{ skill.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+
     </div><!--//item-->
     {% endfor %}
 
