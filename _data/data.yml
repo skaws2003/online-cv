@@ -142,6 +142,11 @@ projects:
       - title: Delta
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+interests:
+    - title: Video Representation Learning
+      details: |
+        엘렐레
+
 
 # publications:
 #     title: Publications
