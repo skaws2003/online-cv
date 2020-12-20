@@ -61,8 +61,9 @@ education:
       time: 2013-2014
       details: |
         광주과학고등학교에 입학하여 화학을 전공하였습니다.
-          - 학교 화학 교재 편찬 작업에 참여
-          - 2회의 R&E 대회에서 모두 1위
+          - 2회의 R&E 대회에서 모두 1위 (정보 및 생물 분야)
+          - 정보, 화학, 생물 과목에서 교과우수상
+          
 experiences:
     - role: Lead Developer
       time: 2015 - Present
