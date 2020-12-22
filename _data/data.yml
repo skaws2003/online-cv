@@ -68,25 +68,47 @@ projects:
     - title: Unsupervised Natural Language Video Localization
       time: 2020.7 - now
       company: GIST Computer Vision Lab.
+      topic: Vision and Language
       details: |
         Natural Language Video Localization(NLVL)은 비디오와 문장이 주어졌을 때 비디오에서 문장이 가리키는 부분을 찾아내는 문제입니다. 
         이 문제를 별다른 annotation cost 없이 해결하는 unsupervised NLVL문제를 제시하고 이를 해결하는 알고리즘을 제시하였습니다.
         해당 프로젝트는 현재 CVPR2021과 삼성 휴먼테크 논문대상에 제출하여 리뷰를 받고 있습니다. 
         해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
         지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
+    - title: PyTorch-MFCC
+      time: 2019.11 - 2019.12
+      company: Personal Project
+      topic: Audio Processing
+      details: |
+        MFCC(Mel Frequency Cepstral Coefficient)는 음성 인식이나 기타 오디오 관련 분야에 필수적인 기능이지만, 2019년 12월 당시까지도 아직 PyTorh상에 구현되지 않은 기능이었습니다.
+        이 때문에 differentiable MFCC를 직접 개발하여 배포하였습니다. 
+        현재는 공식 라이브러리인 [TorchAudio](https://pytorch.org/audio/stable/index.html)에서 이를 지원하여 관리하고 있지는 않으나, 여전히 20개 이상의 깃허브 스타를 가지고 있습니다.
     - title: Natural Language Video Localization
       time: 2019.7 - 2020.6
       company: GIST, NCSOFT
+      topic: Vision and Language
       details: |
         위에 소개된 Natural Lanugage Video Localization (NLVL) 문제의 지도학습 버전입니다.
         NCSOFT의 지원을 받아 당시 State-of-th-art 였던 [ASST](https://ieeexplore.ieee.org/document/8931634) 모델을 재구현하고 이를 바탕으로 모델 성능을 올리는 방법을 제시하였습니다.
-        결과적으로 논문이 되지는 못하였으나 노하우가 많이 필요한 비디오 분야에 필수적인 기술 여러 가지를 배울 수 있었습니다.
+        이 연구를 통해 노하우가 많이 필요한 비디오 분야에 필수적인 기술 여러 가지를 배울 수 있었습니다.
     - title: Large Image Obfuscation
-      time: 2019.2 - 2019.6
+      time: 2019.3 - 2019.6
       company: GIST, Deeping Source Inc.
+      topic: Image Security
       details: |
-        Deeping Source Inc.의 지원을 받아 
+        방학 동안 Deeping Source Inc.의 인턴으로 활동하며 Image Obfuscation에 관한 연구를 진행했습니다. 
+        Image Obfuscation은 데이터셋의 privacy문제를 해결하기 위해 이미지를 사람이 알아볼 수 없는 형태로 바꾸되 인공신경망에 학습되었을 때는 정상적인 성능을 내도록 하는 것을 목표로 합니다.
+        기존의 연구는 GAN을 활용하여 Image Obfuscation을 학습하나, 이로 인해 GAN에서 주로 다루는 64*64 이상 크기의 이미지에는 잘 적용되지 않습니다. 
+        여기서는 이를 해결하기 위해 Obfuscator 모델 중간 Featuremap의 cycle consistency를 활용하여 Obfuscator GAN이 커다란 이미지에서도 잘 작동할 수 있도록 하였습니다.
     - title: Image-in-Image Steganography
+      time: 2018.12 - 2019.2
+      company: GIST
+      topic: Image Security
+      details: |
+        하나의 이미지 안에 다른 이미지에 대한 정보를 주입하되 이를 사람이 인식하지는 못하게 하는 알고리즘을 제안하였습니다.
+        기존의 연구는 대부분 이미지 내에 짧은 문장을 주입하는 문제를 다루었으나, 여기에서는 하나의 이미지에 같은 사이즈의 다른 이미지를 주입하는 더 복잡한 문제를 다루었습니다.
+        이를 위해 기존에 존재하던 Text-in-Image Steganography 모델에서 출발하여 Image-in-Image 문제에도 대응하는 새로운 모델을 제안하였습니다.
+    
 
 
 interests:
