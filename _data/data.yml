@@ -108,14 +108,27 @@ projects:
         하나의 이미지 안에 다른 이미지에 대한 정보를 주입하되 이를 사람이 인식하지는 못하게 하는 알고리즘을 제안하였습니다.
         기존의 연구는 대부분 이미지 내에 짧은 문장을 주입하는 문제를 다루었으나, 여기에서는 하나의 이미지에 같은 사이즈의 다른 이미지를 주입하는 더 복잡한 문제를 다루었습니다.
         이를 위해 기존에 존재하던 Text-in-Image Steganography 모델에서 출발하여 Image-in-Image 문제에도 대응하는 새로운 모델을 제안하였습니다.
-    
-
 
 interests:
-    - title: Video Representation Learning
+    - title: Vision and Language
       details: |
-        엘렐레
-
+        현재 발을 담그고 있는 분야입니다. 그 동안 Natural Language Video Localization(NLVL)을 연구하며 얻은 경험을 더 활용하여 더 많은 분야로 뻗어나가고 싶습니다.
+        특히 NLVL 분야를 중점적으로 알고 있으나, 다른 관련 분야 (예: Video Captioning, Dense Captioning, Vision-Language Navigation 등)에도 일정 수준의 지식을 가지고 있습니다.
+        - Video and Language: NLVL, Video (Dense) Captioning, Vision-Language Navigation, Video and Language Transformer
+        - Image and Language: Image Captioning, Scene Graph
+    - title: Video Processing
+      details: |
+        Natural Language Video Localization(NLVL)을 연구하며 비디오 프로세싱에 관한 노하우를 쌓았습니다. 
+        이를 활용하여 비디오 관련 분야에 대해서도 공부하고 싶습니다.
+        - Video Denosing
+        - Action Recognition
+    - title: Audio Synthesis
+      details: |
+        개인적으로 사용할 곳이 많고 컴퓨터 비전이나 NLP에 비해 비교적 발전의 여지가 많이 남아있다고 생각하는 분야입니다.
+        [PyTorch-MFCC](https://github.com/skaws2003/pytorch-mfcc)와 같은 라이브러리를 제작하고 Interspeech등의 학회를 꾸준히 모니터링 하며 시류에 뒤쳐지지 않도록 노력하고 있습니다.
+        - Singing Voice Synthesis
+        - Speech Separation
+        - Vision and Audio
 skills:
     title: Skills &amp; Proficiency
 
@@ -150,7 +163,6 @@ skills:
         level: 50%
         details: |
           처음 컴퓨터 비전을 시작할 때 사용했던 언어입니다. C/C++를 이용하여 ACM-ICPC Korea Regional 본선에 진출한 경험이 있습니다. 학부 이후로 사용한 경험이 없어 조금 시간이 필요합니다. 
-      
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> <br>
