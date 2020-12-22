@@ -19,9 +19,10 @@
         <h3 class="job-title">{{ project.title }}</h3>
         <div class="time">{{ project.time }}</div>
       </div><!--//upper-row-->
-
-      <div class="company">{{ project.company }}</div>
-
+      <div class="company-topic">
+        <div class="company">{{ project.company }}</div>
+        <div class="topic">{{ project.topic }}</div>
+      </div><!--//company-topic-->
     </div><!--//meta-->
 
     {% if project.details %}
