@@ -65,7 +65,7 @@ education:
           - 정보, 화학, 생물 과목에서 교과우수상
           
 projects:
-    - title: Unsupervised Natural Language Video Localization
+    - title: <a href="https://skaws2003.github.io/2021/01/10/uNLVL/" target="parent">Unsupervised Natural Language Video Localization (link)</a>
       time: 2020.7 - now
       company: GIST Computer Vision Lab.
       topic: Vision and Language
@@ -75,7 +75,7 @@ projects:
         해당 프로젝트는 현재 CVPR2021과 삼성 휴먼테크 논문대상에 제출하여 리뷰를 받고 있습니다. 
         해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
         지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
-    - title: PyTorch-MFCC
+    - title: <a href="https://skaws2003.github.io/2019/08/17/pytorch-mfcc/" target="parent">PyTorch-MFCC (link)</a>
       time: 2019.11 - 2019.12
       company: Personal Project
       topic: Audio Processing
@@ -83,7 +83,7 @@ projects:
         MFCC(Mel Frequency Cepstral Coefficient)는 음성 인식이나 기타 오디오 관련 분야에 필수적인 기능이지만, 2019년 12월 당시까지도 아직 PyTorh상에 구현되지 않은 기능이었습니다.
         이 때문에 differentiable MFCC를 직접 개발하여 배포하였습니다. 
         현재는 공식 라이브러리인 [TorchAudio](https://pytorch.org/audio/stable/index.html)에서 이를 지원하여 관리하고 있지는 않으나, 여전히 20개 이상의 깃허브 스타를 가지고 있습니다.
-    - title: Natural Language Video Localization
+    - title: <a href="https://skaws2003.github.io/2020/09/09/NLVL/" target="parent">Natural Language Video Localization (link)</a>
       time: 2019.7 - 2020.6
       company: GIST, NCSOFT
       topic: Vision and Language
@@ -91,7 +91,7 @@ projects:
         위에 소개된 Natural Lanugage Video Localization (NLVL) 문제의 지도학습 버전입니다.
         NCSOFT의 지원을 받아 당시 State-of-th-art 였던 [ASST](https://ieeexplore.ieee.org/document/8931634) 모델을 재구현하고 이를 바탕으로 모델 성능을 올리는 방법을 제시하였습니다.
         이 연구를 통해 노하우가 많이 필요한 비디오 분야에 필수적인 기술 여러 가지를 배울 수 있었습니다.
-    - title: Large Image Obfuscation
+    - title: <a href="https://skaws2003.github.io/2019/05/15/bigobfus/" target="parent">Large Image Obfuscation (link)</a>
       time: 2019.3 - 2019.6
       company: GIST, Deeping Source Inc.
       topic: Image Security
@@ -100,7 +100,7 @@ projects:
         Image Obfuscation은 데이터셋의 privacy문제를 해결하기 위해 이미지를 사람이 알아볼 수 없는 형태로 바꾸되 인공신경망에 학습되었을 때는 정상적인 성능을 내도록 하는 것을 목표로 합니다.
         기존의 연구는 GAN을 활용하여 Image Obfuscation을 학습하나, 이로 인해 GAN에서 주로 다루는 64*64 이상 크기의 이미지에는 잘 적용되지 않습니다. 
         여기서는 이를 해결하기 위해 Obfuscator 모델 중간 Featuremap의 cycle consistency를 활용하여 Obfuscator GAN이 커다란 이미지에서도 잘 작동할 수 있도록 하였습니다.
-    - title: Image-in-Image Steganography
+    - title: <a href="https://skaws2003.github.io/2019/02/18/steganography/" target="parent">Image-in-Image Steganography (link)</a>
       time: 2018.12 - 2019.2
       company: GIST
       topic: Image Security
