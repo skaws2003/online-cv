@@ -69,7 +69,7 @@ projects:
         해당 프로젝트는 현재 CVPR2021과 삼성 휴먼테크 논문대상에 제출하여 리뷰를 받고 있습니다. 
         해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
         지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
-        현재 ICCV2021에 제출하여 심사를 받고 있으며, 추가로 NC소프트의 지원을 받아 특허 출원을 신청하였습니다.
+        현재 ICCV2021에 제출하여 심사를 받고 있으며, 추가로 NC소프트의 지원을 받아 특허를 출원하였습니다 (출원번호: 10-2021-0076124)
     - title: <a href="https://skaws2003.github.io/2019/08/17/pytorch-mfcc/" target="parent">PyTorch-MFCC (link)</a>
       time: 2019.11 - 2019.12
       company: Personal Project
@@ -149,11 +149,14 @@ skills:
            - 연구실 IAM 계정 통합 관리
            - EC2, S3, SageMaker 등의 서비스를 이용한 기계학습
            - Lightsail을 활용하여 웹/VPN 서버 호스팅
-           - MTurk Crowdsourcing
       - name: C/C++
         level: 50%
         details: |
           처음 컴퓨터 비전을 시작할 때 사용했던 언어입니다. C/C++를 이용하여 ACM-ICPC Korea Regional 본선에 진출한 경험이 있습니다. 학부 이후로 사용한 경험이 없어 조금 시간이 필요합니다. 
+      - name: HTML/CSS/JavaScript/React/Vue
+        level: 30%
+        details: |
+          최근 남는 시간에 프론트엔드를 배우기 시작했습니다. 아직은 템플릿을 수정할 수 있는 정도이지만, 꾸준히 발전하고 있습니다.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> <br>
