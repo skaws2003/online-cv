@@ -36,19 +36,23 @@ career-profile:
     title: Career Profile
     summary: |
       GIST 전기전자컴퓨터공학부의 컴퓨터 비전 연구실(최종현 교수님)에서 석사과정을 졸업하였습니다.
-      여러 분야의 지식을 융합하여 새로운 시도를 하는 것을 즐깁니다.
-      현재는 비디오와 다른 데이터 (자연어, 오디오 등)의 관계에 대한 연구를 주로 하고 있으며, 여기서 배운 지식으로 다른 분야에도 도전하고 싶습니다.
+      현재 비디오와 다른 데이터 (자연어, 오디오 등)의 관계에 대한 연구를 주로 하고 있으나, 다른 분야에도 도전하고 싶습니다.
+      지금까지 배운 지식과 노하우를 바탕으로 실제 서비스에 기여할 준비가 되어있습니다.
+
+      7월 중으로 편입신청을 할 수 있는 보충역 산업기능요원 병역특례 일자리를 알아보고 있습니다.
       
 education:
     - degree: MS in Computer Science 
       university: GIST (GPA 4.25/4.50)
       time: 2019-2020
       details: |
-        광주과학기술원 컴퓨터 비전 연구실(최종현 교수님)에서 석사 학위를 받았습니다. Video & Language, Action recognition, Image security 등의 분야를 경험하였습니다.\\
-        연구실에서 다음과 같은 분야를 경험하였습니다.
+        광주과학기술원 컴퓨터 비전 연구실(최종현 교수님)에서 석사 학위를 받았습니다. \
+        Video & Language, Action recognition, Image security 등의 분야를 경험하였습니다.\
+        연구실에서 다음과 같은 분야를 경험하였습니다:
           - Vision & Language: Video Captioning, Natural Language Video Localization
           - Video Understanding: Action Recognition, Self-supervised Video Representation Learning
           - Image Security: Steganography, Image Obfuscation
+          - Image Generation(GAN): Image Obfuscation
     - degree: BS in Computer Science
       university: GIST (GPA 3.94 / 4.50)
       time: 2015-2018
@@ -69,31 +73,38 @@ projects:
         해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
         지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
         현재 ICCV2021에 제출하여 심사를 받고 있으며, 추가로 NC소프트의 지원을 받아 **특허를 출원하였습니다 (출원번호 10-2021-0076124)**
-    - title: <a href="https://skaws2003.github.io/2019/08/17/pytorch-mfcc/" target="parent">PyTorch-MFCC (link)</a>
-      time: 2019.11 - 2019.12
-      company: Personal Project
-      topic: Audio Processing
-      details: |
-        MFCC(Mel Frequency Cepstral Coefficient)는 음성 인식이나 기타 오디오 관련 분야에 필수적인 기능이지만, 2019년 12월 당시까지도 아직 PyTorh상에 구현되지 않은 기능이었습니다.
-        이 때문에 differentiable MFCC를 직접 개발하여 배포하였습니다. 
-        현재는 공식 라이브러리인 [TorchAudio](https://pytorch.org/audio/stable/index.html)에서 이를 지원하여 관리하고 있지는 않으나, 여전히 20개 이상의 깃허브 스타를 가지고 있습니다.
     - title: <a href="https://skaws2003.github.io/2020/09/09/NLVL/" target="parent">Natural Language Video Localization (link)</a>
-      time: 2019.7 - 2020.6
+      time: 2019.10 - 2020.6
       company: GIST, NCSOFT
       topic: Vision and Language
       details: |
         위에 소개된 Natural Lanugage Video Localization (NLVL) 문제의 지도학습 버전입니다.
         NCSOFT의 지원을 받아 당시 State-of-th-art 였던 [ASST](https://ieeexplore.ieee.org/document/8931634) 모델을 재구현하고 이를 바탕으로 모델 성능을 올리는 방법을 제시하였습니다.
         이 연구를 통해 노하우가 많이 필요한 비디오 분야에 필수적인 기술 여러 가지를 배울 수 있었습니다.
-    - title: <a href="https://skaws2003.github.io/2019/05/15/bigobfus/" target="parent">Large Image Obfuscation (link)</a>
-      time: 2019.3 - 2019.6
+    - title: <a href="https://skaws2003.github.io/2019/08/17/pytorch-mfcc/" target="parent">PyTorch-MFCC (link)</a>
+      time: 2019.11 - 2019.11
+      company: Personal Project
+      topic: Audio Processing
+      details: |
+        MFCC(Mel Frequency Cepstral Coefficient)는 음성 인식이나 기타 오디오 관련 분야에 필수적인 기능이지만, 2019년 12월 당시까지도 아직 PyTorh상에 구현되지 않은 기능이었습니다.
+        이 때문에 differentiable MFCC를 직접 개발하여 배포하였습니다. 
+        현재는 공식 라이브러리인 [TorchAudio](https://pytorch.org/audio/stable/index.html)에서 이를 지원하여 관리하고 있지는 않으나, 30개에 가까운 깃허브 스타를 가지고 있습니다.
+    - title: <a href="https://skaws2003.github.io/2019/10/01/large-obfuscation/" target="parent">Large Image Obfuscation (link)</a>
+      time: 2019.8 - 2019.10
       company: GIST, Deeping Source Inc.
       topic: Image Security
       details: |
-        방학 동안 Deeping Source Inc.의 인턴으로 활동하며 Image Obfuscation에 관한 연구를 진행했습니다. 
+        Deeping Source Inc.의 연구개발 인턴으로 활동하며 아래에 설명한 Image obfuscation 모델이 실사용에서도 잘 동장하도록 하는 선행연구를 하였습니다.
+        기존의 연구는 GAN을 활용하여 Image Obfuscation을 수행하나, 이로 인해 64*64 보다 큰 이미지에는 잘 적용되지 않습니다. 
+        저는 이를 해결하기 위해 Target Task의 Featuremap을 활용하여 Obfuscator GAN이 커다란 이미지에서도 잘 작동할 수 있도록 만들었습니다.
+    - title: <a href="https://skaws2003.github.io/2019/05/15/obfuscation/" target="parent">Image Obfuscation (link)</a>
+      time: 2019.3 - 2019.8
+      company: GIST, Deeping Source Inc.
+      topic: Image Security
+      details: |
+        방학 동안 Deeping Source Inc.의 인턴으로 활동하며 Image Obfuscation서비스의 기반 연구를 하였습니다. 
         Image Obfuscation은 데이터셋의 privacy문제를 해결하기 위해 이미지를 사람이 알아볼 수 없는 형태로 바꾸되 인공신경망에 학습되었을 때는 정상적인 성능을 내도록 하는 것을 목표로 합니다.
-        기존의 연구는 GAN을 활용하여 Image Obfuscation을 학습하나, 이로 인해 GAN에서 주로 다루는 64*64 이상 크기의 이미지에는 잘 적용되지 않습니다. 
-        여기서는 이를 해결하기 위해 Obfuscator 모델 중간 Featuremap의 cycle consistency를 활용하여 Obfuscator GAN이 커다란 이미지에서도 잘 작동할 수 있도록 하였습니다.
+        현재 Image Obfuscation은 Deeping source inc.의 주요 서비스로 자리잡았습니다.
     - title: <a href="https://skaws2003.github.io/2019/02/18/steganography/" target="parent">Image-in-Image Steganography (link)</a>
       time: 2018.12 - 2019.2
       company: GIST
