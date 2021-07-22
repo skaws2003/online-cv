@@ -72,7 +72,8 @@ projects:
         이 문제를 별다른 annotation cost 없이 해결하는 unsupervised NLVL문제를 제시하고 이를 해결하는 알고리즘을 제시하였습니다.
         해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
         지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
-        현재 ICCV2021에 제출하여 심사를 받고 있으며, 추가로 NC소프트의 지원을 받아 **특허를 출원하였습니다 (출원번호 10-2021-0076124)**
+        * NC소프트의 지원을 받아 **특허를 출원하였습니다 (출원번호 10-2021-0076124)**
+        * **ICCV2021 Accpeted!!**
     - title: <a href="https://skaws2003.github.io/2020/09/09/NLVL/" target="parent">Natural Language Video Localization (link)</a>
       time: 2019.10 - 2020.6
       company: GIST, NCSOFT
