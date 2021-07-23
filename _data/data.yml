@@ -63,13 +63,13 @@ education:
           - ACM-ICPC Asia Seoul Regional 진출 (지역 본선)
           
 projects:
-    - title: <a href="https://skaws2003.github.io/2021/01/10/uNLVL/" target="parent">Unsupervised Natural Language Video Localization (link)</a>
+    - title: <a href="https://skaws2003.github.io/2021/01/10/uNLVL/" target="parent">Zero-Shot Natural Language Video Localization (link)</a>
       time: 2020.7 - now
       company: GIST Computer Vision Lab.
       topic: Vision and Language
       details: |
         Natural Language Video Localization(NLVL)은 비디오와 문장이 주어졌을 때 비디오에서 문장이 가리키는 부분을 찾아내는 문제입니다. 
-        이 문제를 별다른 annotation cost 없이 해결하는 unsupervised NLVL문제를 제시하고 이를 해결하는 알고리즘을 제시하였습니다.
+        이 문제를 별다른 annotation cost 없이 해결하는 Zero-Shot NLVL문제를 제시하고 이를 해결하는 알고리즘을 제시하였습니다.
         해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
         지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
         * NC소프트의 지원을 받아 **특허를 출원하였습니다 (출원번호 10-2021-0076124)**
@@ -169,6 +169,16 @@ skills:
         details: |
           최근 남는 시간에 프론트엔드를 배우기 시작했습니다. 아직은 템플릿을 수정할 수 있는 정도이지만, 꾸준히 발전하고 있습니다.
 
+publications:
+  title: Publications
+  intro: 위에 언급된 프로젝트를 바탕으로 논문과 특허를 출판하였습니다.
+  papers:
+    - title: Zero-Shot Natural Langugage Video Localization (Oral)
+      authors: Jinwoo Nam, Daechul Ahn, Dongyeop Kang, SeongJong Ha, Jonghyun Choi
+      conference: International Conference on Computer Vision (ICCV), 2021
+    - title: 비디오 내 구간을 검색하기 위한 뉴럴 네트워크의 학습 방법 및 장치
+      authors: 남진우, 안대철, 강동엽, 하성종, 최종현
+      conference: 국내 특허
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> <br>
     Template modified by <a href="https://github.com/skaws2003">skaws2003</a>
