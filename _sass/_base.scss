@@ -282,3 +282,61 @@ p {
     }
 
 }
+
+
+
+
+#menu {
+    z-index: 99;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#menu > li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    margin: 0;
+    border-bottom: 1px solid #e6e6e6;
+    color: #505050;
+    font-size: 15px;
+    line-height: 59px; /* 59px = 60(height) - 1(border) */
+}
+
+#menu > li > a {
+    padding: 0 16px;
+}
+
+#menu > li.active,
+#menu > li:hover {
+    border-bottom: 1px solid #1e1e1e;
+    color: #1e1e1e;
+    font-weight: 400;
+}
+
+#menu > li.active > a,
+#menu > li:hover > a {
+    color: #1e1e1e;
+}
+
+
+@media only screen and (max-width: 720px) {
+    #menu > li {
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        border-bottom: none;
+    }
+
+    #menu > li.active, #menu > li:hover {
+        border-bottom: none;
+        background-color: #f4f4f4;
+    }
+
+    #menu > li > a {
+        display: block;
+    }
+}
