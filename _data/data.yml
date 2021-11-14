@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Jinwoo Nam
     tagline: MS student@GIST
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: skaws2012@gmail.com
@@ -32,19 +32,20 @@ sidebar:
       - idiom: English
         level: Professional
 
+      - idiom: 日本語
+        level: 初心者
+
 career-profile:
     title: Career Profile
     summary: |
-      GIST 전기전자컴퓨터공학부의 컴퓨터 비전 연구실(최종현 교수님)에서 석사과정을 졸업하였습니다.
-      현재 비디오와 다른 데이터 (자연어, 오디오 등)의 관계에 대한 연구를 주로 하고 있으나, 다른 분야에도 도전하고 싶습니다.
-      지금까지 배운 지식과 노하우를 바탕으로 실제 서비스에 기여할 준비가 되어있습니다.
-
-      7월 중으로 편입신청을 할 수 있는 보충역 산업기능요원 병역특례 일자리를 알아보고 있습니다.
+      현재 <a href="https://www.knowre.com/" target="parent">Knowre Inc.</a>에서 머신 러닝 엔지니어로 병역 특례를 수행하고 있습니다.
+      비디오, 자연어, 그리고 추천 시스템에 익숙하며, 새로운 도전에도 언제나 열려 있습니다.
+      지금까지 얻은 지식과 노하우를 바탕으로 아느 분야에도 기여할 준비가 되어 있습니다.
       
 education:
     - degree: MS in Computer Science 
       university: GIST (GPA 4.25/4.50)
-      time: 2019-2020
+      time: 2019.03 - 2021.02
       details: |
         광주과학기술원 컴퓨터 비전 연구실(최종현 교수님)에서 석사 학위를 받았습니다. \
         Video & Language, Action recognition, Image security 등의 분야를 경험하였습니다.\
@@ -55,25 +56,43 @@ education:
           - Image Generation(GAN): Image Obfuscation
     - degree: BS in Computer Science
       university: GIST (GPA 3.94 / 4.50)
-      time: 2015-2018
+      time: 2015.03 -2019.02
       details: |
           광주과학기술원대학 전기전자컴퓨터공학부에서 컴퓨터과학을 전공하였습니다.
           - 우등졸업
           - 국가이공계장학금 수여
           - ACM-ICPC Asia Seoul Regional 진출 (지역 본선)
           
+experiences:
+  - title: Machine Learning Engineer
+    time: 2021.8 - now
+    company: Knowre Inc.
+    topic: 병역특례
+    details: |
+      현재 <a href="https://www.knowre.com/" target="parent">Knowre Inc.</a>에서 병역특례로 근무하고 있습니다. 2023년 8월 복무만료 예정입니다.\
+      Knowre Inc.에서는 수학/영어 과목에서 학생별로 개인화된 교육 서비스를 제공하고 있습니다. 
+      대표적으로 <a href="https://summit.daekyo.com/V2/index.aspx" target="parent">대교 써밋 수학</a>을 개발하고 서비스하고 있으며, 300여개에 달하는 미 공교육 기관에 수학 커리큘럼을 공급하고 있습니다.\
+      저는 이러한 서비스의 핵심이 되는 학생 능력 추정 및 문제 추천 시스템 개발 부문에서 리드 연구원으로서 차세대 시스템 연구개발를 담당하고 있습니다.
+  - title: Machine Learning Intern
+    time: 2019.07 - 2019.09
+    company: Deeping Source Inc.
+    topic: 학기 중 인턴
+    details: |
+      머신러닝에 쓰이는 이미지 데이터셋의 프라이버시 문제를 해결하기 위한 이미지 비식별화(Image Obfuscation)기법의 연구개발에 참여하였습니다.
+      여기서, 저는 비식별화에 사용된 인공신경망 구조를 구현하였고, 개발 완료된 비식별화 알고리즘이 다양한 크기의 이미지에 대응할 수 있도록 하는 방법을 개발하였습니다.
+
 projects:
     - title: <a href="https://skaws2003.github.io/2021/01/10/uNLVL/" target="parent">Zero-Shot Natural Language Video Localization (link)</a>
-      time: 2020.7 - now
-      company: GIST Computer Vision Lab.
+      time: 2020.7 - 2021.10
+      company: GIST Computer Vision Lab, NCSOFT
       topic: Vision and Language
       details: |
         Natural Language Video Localization(NLVL)은 비디오와 문장이 주어졌을 때 비디오에서 문장이 가리키는 부분을 찾아내는 문제입니다. 
         이 문제를 별다른 annotation cost 없이 해결하는 Zero-Shot NLVL문제를 제시하고 이를 해결하는 알고리즘을 제시하였습니다.
         해당 논문의 제 1저자로 연구를 진행하였고, 아이디어부터 대부분의 실험 설계와 논문 구성까지 도맡아 했습니다. 
         지도교수님과 다른 분들의 도움을 통해 성공적으로 논문의 형태로 만들 수 있었습니다.
-        * NC소프트의 지원을 받아 **특허를 출원하였습니다 (출원번호 10-2021-0076124)**
-        * **ICCV2021 Accpeted as Oral Paper!!!**
+        * NCSOFT의 지원을 받아 특허를 출원하였습니다 (출원번호 10-2021-0076124)
+        * <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Nam_Zero-Shot_Natural_Language_Video_Localization_ICCV_2021_paper.html" target="parent">ICCV2021 Accpeted as Oral Paper (link)</a>
     - title: <a href="https://skaws2003.github.io/2020/09/09/NLVL/" target="parent">Natural Language Video Localization (link)</a>
       time: 2019.10 - 2020.6
       company: GIST, NCSOFT
@@ -141,33 +160,43 @@ skills:
       - name: Python
         level: 90%
         details: |
-          대학원 시기 모든 연구에 파이썬을 이용하였으며 참여한 모든 프로젝트의 주요 코드를 작성하였습니다. 떠올린 아이디어를 대부분 파이썬 코드로 옮길 수 있습니다.
+          - 떠올린 아이디어를 대부분 코드로 옮길 수 있습니다.
+          - 대학원 시기 모든 연구에 파이썬을 이용하였으며 참여한 모든 프로젝트의 주요 코드를 작성하였습니다.
+          - Knowre Inc. 에 재직하며 사용한 주요 언어입니다.
       - name: PyTorch
         level: 90%
-        details:
-          대학원 시기 모든 연구에 PyTorch를 사용하였습니다. 참여한 모든 프로젝트의 코드에 주요 멤버로서 관여하였습니다. 
-          PyTorch 라이브러리 내부의 코드를 수정하여 원하는 형태로 만들 수 있습니다. 예를 들어, DataParallel을 수정하여 커스텀 데이터 타입을 Multi-GPU에서도 사용할 수 있게 만든 경험이 있습니다.
-      - name: Arduino/ATmega128
-        level: 60%
         details: |
-          취미로 하는 DIY 프로젝트에 많이 이용하였습니다.
-           - 2D 플로터
-           - 수비드 머신
+          - 떠올린 아이디어를 대부분 딥 러닝 모델로 구현할 수 있습니다.
+          - 대학원 시기 모든 연구에 PyTorch를 사용하였습니다. 참여한 모든 프로젝트의 코드에 주요 멤버로서 관여하였습니다. 
+          - PyTorch 라이브러리 내부의 코드를 수정하여 원하는 형태로 만들 수 있습니다. 예를 들어, DataParallel을 수정하여 커스텀 데이터 타입을 Multi-GPU에서도 사용할 수 있게 만든 경험이 있습니다.
       - name: Amazon Web Services
         level: 50%
         details: |
-          광주과학기술원 컴퓨터 비전 연구실의 AWS 관리자로 활동하였습니다.
-           - 연구실 IAM 계정 통합 관리
-           - EC2, S3, SageMaker 등의 서비스를 이용한 기계학습
-           - Lightsail을 활용하여 웹/VPN 서버 호스팅
+          - 현재 AWS Certified Solutions Architect – Associate 자격증을 준비하고 있습니다.
+          - 노리코리아의 서비스 개발에 AWS 서비스를 자주 사용하였습니다.
+            - AWS Lambda, Glue 등을 활용하여 Event-driven architecture 구현
+            - EC2, S3, SageMaker 등의 서비스를 이용한 기계학습
+          - 광주과학기술원 컴퓨터 비전 연구실의 AWS 관리자로 활동하였습니다.
+            - 연구실 IAM 계정 통합 관리
+            - EC2, S3, SageMaker 등의 서비스를 이용한 기계학습
+            - Lightsail을 활용하여 웹/VPN 서버 호스팅
       - name: C/C++
-        level: 50%
+        level: 40%
         details: |
-          처음 컴퓨터 비전을 시작할 때 사용했던 언어입니다. C/C++를 이용하여 ACM-ICPC Korea Regional 본선에 진출한 경험이 있습니다. 학부 이후로 사용한 경험이 없어 조금 시간이 필요합니다. 
+          - 처음 컴퓨터 비전을 시작할 때 사용했던 언어입니다. 
+          - C/C++를 이용하여 ACM-ICPC Korea Regional 본선에 진출한 경험이 있습니다. 
+          - 학부 이후로 사용한 경험이 없어 조금 시간이 필요합니다. 
       - name: React/Vue
         level: 30%
         details: |
-          최근 남는 시간에 프론트엔드를 배우기 시작했습니다. 아직은 템플릿을 수정할 수 있는 정도이지만, 꾸준히 발전하고 있습니다.
+          - 최근 남는 시간에 프론트엔드를 배우기 시작했습니다. 
+          - 아직은 템플릿을 수정할 수 있는 정도이지만, 꾸준히 발전하고 있습니다.
+      - name: Arduino/ATmega128
+        level: 60%
+        details: |
+          - 취미로 하는 DIY 프로젝트에 많이 이용하였습니다.
+            - 2D 플로터
+            - 수비드 머신
 
 publications:
   title: Publications
