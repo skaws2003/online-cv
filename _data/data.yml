@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Jinwoo Nam
-    tagline: ML Engineer@Knowre
+    tagline: AI Researcher@Turing
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -38,8 +38,8 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      현재 <a href="https://www.knowre.com/" target="parent">Knowre Inc.</a>에서 머신 러닝 엔지니어로 병역 특례를 수행하고 있습니다.
-      비디오, 자연어, 그리고 추천 시스템에 익숙하며, 새로운 도전에도 언제나 열려 있습니다.
+      현재 <a href="https://www.teamturing.com" target="parent">㈜튜링</a>에서 AI Researcher로 병역 특례를 수행하고 있습니다.
+      추천 시스템, 비디오, 자연어 처리에 익숙하며, 새로운 도전에도 언제나 열려 있습니다.
       지금까지 얻은 지식과 노하우를 바탕으로 아느 분야에도 기여할 준비가 되어 있습니다.
       
 education:
@@ -64,16 +64,22 @@ education:
           - ACM-ICPC Asia Seoul Regional 진출 (지역 본선)
           
 experiences:
-  - title: Machine Learning Engineer
-    time: 2021.8 - now
-    company: Knowre Inc.
-    topic: 병역특례
+  - title: AI Researcher
+    time: 2022.11 - now
+    company: Turing Co. ltd.
+    topic: 정규직(병역특례)
     details: |
-      현재 <a href="https://www.knowre.com/" target="parent">Knowre Inc.</a>에서 병역특례로 근무하고 있습니다. 2023년 8월 복무만료 예정입니다.\
+      <a href="https://www.teamturing.com" target="parent">Turing Co. ltd.<\a>에서 병역특례로 근무중입니다. 2023년 7월 3일 복무만료 예정입니다.\
+      Turing Co. ltd.에서는 월간 수학 교육 분야 이용자수에서 최고치를 기록하고 있는 "수학대왕" 어플리케이션을 서비스하고 있습니다.
+  - title: Machine Learning Engineer
+    time: 2021.8 - 2022.10
+    company: Knowre Inc.
+    topic: 정규직(병역특례)
+    details: |
+      <a href="https://www.knowre.com/" target="parent">Knowre Inc.</a>에서 병역특례로 근무하였습니다.\
       Knowre Inc.에서는 수학/영어 과목에서 학생별로 개인화된 교육 서비스를 제공하고 있습니다. 
-      대표적으로 <a href="https://summit.daekyo.com/V2/index.aspx" target="parent">대교 써밋 수학</a>, 
-      <a href="https://knowre.co.kr" target="parent">노리 AI 스쿨</a>를 개발하고 서비스하고 있으며, 300여개에 달하는 미 공교육 기관에 수학 커리큘럼을 공급하고 있습니다.\
-      저는 이러한 서비스의 핵심이 되는 학생 능력 추정 및 문제 추천 시스템 개발 부문에서 리드 연구원으로서 차세대 시스템 연구개발를 담당하고 있습니다.
+      대표적으로 <a href="https://summit.daekyo.com/V2/index.aspx" target="parent">대교 써밋 수학</a>을 개발하고 서비스하고 있으며, 300여개에 달하는 미 공교육 기관에 수학 커리큘럼을 공급하고 있습니다.\
+      저는 이러한 서비스의 핵심이 되는 학생 능력 추정 및 문제 추천 시스템 개발 부문에서 리드 연구원으로서 차세대 시스템 연구개발를 담당하였습니다.
   - title: Machine Learning Intern
     time: 2019.07 - 2019.09
     company: Deeping Source Inc.
@@ -83,6 +89,17 @@ experiences:
       여기서, 저는 비식별화에 사용된 인공신경망 구조를 구현하였고, 개발 완료된 비식별화 알고리즘이 다양한 크기의 이미지에 대응할 수 있도록 하는 방법을 개발하였습니다.
 
 projects:
+    - title: 학생의 실력과 문제의 난이도를 추정하기 위한 직관적인 점수 체계 개발
+      time: 2021.8 - 2022.10
+      company: Knowre Inc.
+      topic: Explainable AI (XAI)
+      details: |
+        학생의 문제풀이 능력과 각 문제의 난이도를 추정하는 시스템을 개선하여, 기존 시스템보다 높은 정확도를 보이면서 직관적으로 이해할 수 있는 점수(레이팅)체계를 개발하였습니다. \
+        새로운 시스템은 TrueSkill Rating system에 Knowledge Graph와 학생들의 문제 풀이 로그에서 나온 통계치를 접목하여 만들었으며, 다음과 같은 장점을 지닙니다: |
+        * 학년에 따라 학생의 능력이 증가하는 것을 직관적인 점수로 확인할 수 있습니다.
+        * 마찬가지로, 학년에 따른 문제의 난이도 증가 역시 직관적인 점수로 표현됩니다
+        * 학생의 실력 추정치가 급격하게 변하는 일이 적어 안정적입니다
+        * 기존 시스템보다 추정치가 정확합니다
     - title: <a href="https://skaws2003.github.io/2021/01/10/uNLVL/" target="parent">Zero-Shot Natural Language Video Localization (link)</a>
       time: 2020.7 - 2021.10
       company: GIST Computer Vision Lab, NCSOFT
